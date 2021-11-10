@@ -1,6 +1,4 @@
-# iWW-GVR: A tool to manipulate MCNP weight window (WW) and to generate Global Variance Reduction (GVR) parameters
-
-![Python Logo](docs/img/WWpic.png "Sample inline image")
+# rssa_analyzer: Tool to read, analyze and plot RSSA files
 
 The tool is a Python 3.7 based package that can load, analyze and plot RSSA files.
 
