@@ -109,7 +109,10 @@ class Plotter:
         ax_values: plt.Axes = figure_values.add_subplot()
         ax_values.set_xlabel("Perimeter of the cylinder (cm)")
         ax_values.set_ylabel("Z (cm)")
-        ax_values.set_title("Neutron current through the surface [n/cm2/s]")
+        if particle == 'n':
+            ax_values.set_title("Neutron current through the surface [#/cm2/s]")
+        else:
+            ax_values.set_title("Photon current through the surface [#/cm2/s]")
         ax_values.imshow(grid_values, origin='lower', extent=extent)
         # Set the colors to log range
         if value_range is not None:
