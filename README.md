@@ -1,3 +1,5 @@
+This module has been updated and integrated into [F4Enix](https://github.com/Fusion4Energy/F4Enix) as a submodule. Please check [F4Enix](https://github.com/Fusion4Energy/F4Enix) and its documentation. All future developments will be done at the F4Enix project. This repository will no longer be maintained.
+
 # rssa_analyzer: Tool to read, analyze and plot RSSA files
 
 The tool is a Python 3.7 based package that can load, analyze and plot RSSA files.
